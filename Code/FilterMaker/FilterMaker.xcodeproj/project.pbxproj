@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DF8E36154F55C1004DB8BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E35154F55C1004DB8BE /* UIKit.framework */; };
+		A4DF8E38154F55C1004DB8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E37154F55C1004DB8BE /* Foundation.framework */; };
+		A4DF8E3A154F55C1004DB8BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E39154F55C1004DB8BE /* CoreGraphics.framework */; };
+		A4DF8E40154F55C1004DB8BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4DF8E3E154F55C1004DB8BE /* InfoPlist.strings */; };
+		A4DF8E42154F55C1004DB8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF8E41154F55C1004DB8BE /* main.m */; };
+		A4DF8E46154F55C1004DB8BE /* JJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4DF8E31154F55C1004DB8BE /* FilterMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DF8E35154F55C1004DB8BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4DF8E37154F55C1004DB8BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4DF8E39154F55C1004DB8BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4DF8E3D154F55C1004DB8BE /* FilterMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterMaker-Info.plist"; sourceTree = "<group>"; };
+		A4DF8E3F154F55C1004DB8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4DF8E41154F55C1004DB8BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4DF8E43154F55C1004DB8BE /* FilterMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilterMaker-Prefix.pch"; sourceTree = "<group>"; };
+		A4DF8E44154F55C1004DB8BE /* JJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJAppDelegate.h; sourceTree = "<group>"; };
+		A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DF8E2E154F55C1004DB8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF8E36154F55C1004DB8BE /* UIKit.framework in Frameworks */,
+				A4DF8E38154F55C1004DB8BE /* Foundation.framework in Frameworks */,
+				A4DF8E3A154F55C1004DB8BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DF8E26154F55C1004DB8BE = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E3B154F55C1004DB8BE /* FilterMaker */,
+				A4DF8E34154F55C1004DB8BE /* Frameworks */,
+				A4DF8E32154F55C1004DB8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DF8E32154F55C1004DB8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E31154F55C1004DB8BE /* FilterMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DF8E34154F55C1004DB8BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E35154F55C1004DB8BE /* UIKit.framework */,
+				A4DF8E37154F55C1004DB8BE /* Foundation.framework */,
+				A4DF8E39154F55C1004DB8BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4DF8E3B154F55C1004DB8BE /* FilterMaker */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E44154F55C1004DB8BE /* JJAppDelegate.h */,
+				A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */,
+				A4DF8E3C154F55C1004DB8BE /* Supporting Files */,
+			);
+			path = FilterMaker;
+			sourceTree = "<group>";
+		};
+		A4DF8E3C154F55C1004DB8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E3D154F55C1004DB8BE /* FilterMaker-Info.plist */,
+				A4DF8E3E154F55C1004DB8BE /* InfoPlist.strings */,
+				A4DF8E41154F55C1004DB8BE /* main.m */,
+				A4DF8E43154F55C1004DB8BE /* FilterMaker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DF8E30154F55C1004DB8BE /* FilterMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DF8E49154F55C1004DB8BE /* Build configuration list for PBXNativeTarget "FilterMaker" */;
+			buildPhases = (
+				A4DF8E2D154F55C1004DB8BE /* Sources */,
+				A4DF8E2E154F55C1004DB8BE /* Frameworks */,
+				A4DF8E2F154F55C1004DB8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterMaker;
+			productName = FilterMaker;
+			productReference = A4DF8E31154F55C1004DB8BE /* FilterMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DF8E28154F55C1004DB8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JJ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Two Toasters, LLC";
+			};
+			buildConfigurationList = A4DF8E2B154F55C1004DB8BE /* Build configuration list for PBXProject "FilterMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4DF8E26154F55C1004DB8BE;
+			productRefGroup = A4DF8E32154F55C1004DB8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DF8E30154F55C1004DB8BE /* FilterMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DF8E2F154F55C1004DB8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF8E40154F55C1004DB8BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DF8E2D154F55C1004DB8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DF8E42154F55C1004DB8BE /* main.m in Sources */,
+				A4DF8E46154F55C1004DB8BE /* JJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4DF8E3E154F55C1004DB8BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DF8E3F154F55C1004DB8BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DF8E47154F55C1004DB8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4DF8E48154F55C1004DB8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DF8E4A154F55C1004DB8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterMaker/FilterMaker-Prefix.pch";
+				INFOPLIST_FILE = "FilterMaker/FilterMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4DF8E4B154F55C1004DB8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterMaker/FilterMaker-Prefix.pch";
+				INFOPLIST_FILE = "FilterMaker/FilterMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DF8E2B154F55C1004DB8BE /* Build configuration list for PBXProject "FilterMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF8E47154F55C1004DB8BE /* Debug */,
+				A4DF8E48154F55C1004DB8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DF8E49154F55C1004DB8BE /* Build configuration list for PBXNativeTarget "FilterMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DF8E4A154F55C1004DB8BE /* Debug */,
+				A4DF8E4B154F55C1004DB8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DF8E28154F55C1004DB8BE /* Project object */;
+}
