@@ -1,0 +1,3 @@
+[submodule "Libraries/GPUImage"]
+	path = Libraries/GPUImage
+	url = git://github.com/BradLarson/GPUImage.git

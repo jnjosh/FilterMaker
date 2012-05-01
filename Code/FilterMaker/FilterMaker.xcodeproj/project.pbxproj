@@ -7,15 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4852961154F897100C0C8A1 /* ImageTray.png in Resources */ = {isa = PBXBuildFile; fileRef = A485295F154F897100C0C8A1 /* ImageTray.png */; };
+		A4852962154F897100C0C8A1 /* ImageTray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4852960154F897100C0C8A1 /* ImageTray@2x.png */; };
 		A4DF8E36154F55C1004DB8BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E35154F55C1004DB8BE /* UIKit.framework */; };
 		A4DF8E38154F55C1004DB8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E37154F55C1004DB8BE /* Foundation.framework */; };
 		A4DF8E3A154F55C1004DB8BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E39154F55C1004DB8BE /* CoreGraphics.framework */; };
 		A4DF8E40154F55C1004DB8BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4DF8E3E154F55C1004DB8BE /* InfoPlist.strings */; };
 		A4DF8E42154F55C1004DB8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF8E41154F55C1004DB8BE /* main.m */; };
 		A4DF8E46154F55C1004DB8BE /* JJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */; };
+		A4DF8E6B154F5778004DB8BE /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E66154F574D004DB8BE /* libGPUImage.a */; };
+		A4DF8E73154F57D8004DB8BE /* JJFilterMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF8E72154F57D8004DB8BE /* JJFilterMakerViewController.m */; };
+		A4DF8E7B154F59BA004DB8BE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E79154F59A0004DB8BE /* CoreMedia.framework */; };
+		A4DF8E7E154F59CC004DB8BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E7C154F59C3004DB8BE /* QuartzCore.framework */; };
+		A4DF8E81154F59F6004DB8BE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E7F154F59E9004DB8BE /* OpenGLES.framework */; };
+		A4DF8E84154F5A0A004DB8BE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E82154F5A03004DB8BE /* AVFoundation.framework */; };
+		A4DF8E87154F5A1D004DB8BE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DF8E85154F5A16004DB8BE /* CoreVideo.framework */; };
+		A4DF8E8A154F5C69004DB8BE /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4DF8E89154F5C69004DB8BE /* image.jpg */; };
+		A4DF8E8C154F69CE004DB8BE /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DF8E8B154F69CE004DB8BE /* photo.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A4DF8E65154F574D004DB8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DF8E5D154F574C004DB8BE /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		A4DF8E67154F574D004DB8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DF8E5D154F574C004DB8BE /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
+		};
+		A4DF8E69154F5772004DB8BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DF8E5D154F574C004DB8BE /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A485295F154F897100C0C8A1 /* ImageTray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageTray.png; sourceTree = "<group>"; };
+		A4852960154F897100C0C8A1 /* ImageTray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageTray@2x.png"; sourceTree = "<group>"; };
 		A4DF8E31154F55C1004DB8BE /* FilterMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DF8E35154F55C1004DB8BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4DF8E37154F55C1004DB8BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,6 +63,16 @@
 		A4DF8E43154F55C1004DB8BE /* FilterMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilterMaker-Prefix.pch"; sourceTree = "<group>"; };
 		A4DF8E44154F55C1004DB8BE /* JJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJAppDelegate.h; sourceTree = "<group>"; };
 		A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAppDelegate.m; sourceTree = "<group>"; };
+		A4DF8E5D154F574C004DB8BE /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../../Libraries/GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		A4DF8E71154F57D8004DB8BE /* JJFilterMakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JJFilterMakerViewController.h; path = Controller/JJFilterMakerViewController.h; sourceTree = "<group>"; };
+		A4DF8E72154F57D8004DB8BE /* JJFilterMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JJFilterMakerViewController.m; path = Controller/JJFilterMakerViewController.m; sourceTree = "<group>"; };
+		A4DF8E79154F59A0004DB8BE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A4DF8E7C154F59C3004DB8BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4DF8E7F154F59E9004DB8BE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A4DF8E82154F5A03004DB8BE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4DF8E85154F5A16004DB8BE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A4DF8E89154F5C69004DB8BE /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		A4DF8E8B154F69CE004DB8BE /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +80,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4DF8E6B154F5778004DB8BE /* libGPUImage.a in Frameworks */,
+				A4DF8E81154F59F6004DB8BE /* OpenGLES.framework in Frameworks */,
+				A4DF8E7E154F59CC004DB8BE /* QuartzCore.framework in Frameworks */,
 				A4DF8E36154F55C1004DB8BE /* UIKit.framework in Frameworks */,
+				A4DF8E84154F5A0A004DB8BE /* AVFoundation.framework in Frameworks */,
+				A4DF8E7B154F59BA004DB8BE /* CoreMedia.framework in Frameworks */,
 				A4DF8E38154F55C1004DB8BE /* Foundation.framework in Frameworks */,
+				A4DF8E87154F5A1D004DB8BE /* CoreVideo.framework in Frameworks */,
 				A4DF8E3A154F55C1004DB8BE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +115,12 @@
 		A4DF8E34154F55C1004DB8BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4DF8E5D154F574C004DB8BE /* GPUImage.xcodeproj */,
+				A4DF8E85154F5A16004DB8BE /* CoreVideo.framework */,
+				A4DF8E82154F5A03004DB8BE /* AVFoundation.framework */,
+				A4DF8E7F154F59E9004DB8BE /* OpenGLES.framework */,
+				A4DF8E7C154F59C3004DB8BE /* QuartzCore.framework */,
+				A4DF8E79154F59A0004DB8BE /* CoreMedia.framework */,
 				A4DF8E35154F55C1004DB8BE /* UIKit.framework */,
 				A4DF8E37154F55C1004DB8BE /* Foundation.framework */,
 				A4DF8E39154F55C1004DB8BE /* CoreGraphics.framework */,
@@ -72,9 +131,10 @@
 		A4DF8E3B154F55C1004DB8BE /* FilterMaker */ = {
 			isa = PBXGroup;
 			children = (
-				A4DF8E44154F55C1004DB8BE /* JJAppDelegate.h */,
-				A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */,
-				A4DF8E3C154F55C1004DB8BE /* Supporting Files */,
+				A4DF8E70154F57AC004DB8BE /* Controller */,
+				A4DF8E6F154F57A7004DB8BE /* View */,
+				A4DF8E6E154F57A3004DB8BE /* Model */,
+				A4DF8E6C154F5791004DB8BE /* Application */,
 			);
 			path = FilterMaker;
 			sourceTree = "<group>";
@@ -88,6 +148,60 @@
 				A4DF8E43154F55C1004DB8BE /* FilterMaker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4DF8E5E154F574C004DB8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E66154F574D004DB8BE /* libGPUImage.a */,
+				A4DF8E68154F574D004DB8BE /* GPUImageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DF8E6C154F5791004DB8BE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E44154F55C1004DB8BE /* JJAppDelegate.h */,
+				A4DF8E45154F55C1004DB8BE /* JJAppDelegate.m */,
+				A4DF8E88154F5C5F004DB8BE /* Resources */,
+				A4DF8E3C154F55C1004DB8BE /* Supporting Files */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		A4DF8E6E154F57A3004DB8BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A4DF8E6F154F57A7004DB8BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4DF8E70154F57AC004DB8BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF8E71154F57D8004DB8BE /* JJFilterMakerViewController.h */,
+				A4DF8E72154F57D8004DB8BE /* JJFilterMakerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A4DF8E88154F5C5F004DB8BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A485295F154F897100C0C8A1 /* ImageTray.png */,
+				A4852960154F897100C0C8A1 /* ImageTray@2x.png */,
+				A4DF8E8B154F69CE004DB8BE /* photo.png */,
+				A4DF8E89154F5C69004DB8BE /* image.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +218,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A4DF8E6A154F5772004DB8BE /* PBXTargetDependency */,
 			);
 			name = FilterMaker;
 			productName = FilterMaker;
@@ -130,6 +245,12 @@
 			mainGroup = A4DF8E26154F55C1004DB8BE;
 			productRefGroup = A4DF8E32154F55C1004DB8BE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A4DF8E5E154F574C004DB8BE /* Products */;
+					ProjectRef = A4DF8E5D154F574C004DB8BE /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A4DF8E30154F55C1004DB8BE /* FilterMaker */,
@@ -137,12 +258,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A4DF8E66154F574D004DB8BE /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = A4DF8E65154F574D004DB8BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4DF8E68154F574D004DB8BE /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = A4DF8E67154F574D004DB8BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A4DF8E2F154F55C1004DB8BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4DF8E40154F55C1004DB8BE /* InfoPlist.strings in Resources */,
+				A4DF8E8A154F5C69004DB8BE /* image.jpg in Resources */,
+				A4DF8E8C154F69CE004DB8BE /* photo.png in Resources */,
+				A4852961154F897100C0C8A1 /* ImageTray.png in Resources */,
+				A4852962154F897100C0C8A1 /* ImageTray@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,10 +297,19 @@
 			files = (
 				A4DF8E42154F55C1004DB8BE /* main.m in Sources */,
 				A4DF8E46154F55C1004DB8BE /* JJAppDelegate.m in Sources */,
+				A4DF8E73154F57D8004DB8BE /* JJFilterMakerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DF8E6A154F5772004DB8BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = A4DF8E69154F5772004DB8BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A4DF8E3E154F55C1004DB8BE /* InfoPlist.strings */ = {
@@ -222,7 +373,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FilterMaker/FilterMaker-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../../Libraries/GPUImage/framework/Source/**";
 				INFOPLIST_FILE = "FilterMaker/FilterMaker-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -233,7 +389,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FilterMaker/FilterMaker-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../../Libraries/GPUImage/framework/Source/**";
 				INFOPLIST_FILE = "FilterMaker/FilterMaker-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,6 +419,7 @@
 				A4DF8E4B154F55C1004DB8BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
