@@ -211,6 +211,8 @@
     [self.colorBlueSlider setContinuous:YES];
     [self.colorBlueSlider addTarget:self action:@selector(sliderValueChanged) forControlEvents:UIControlEventValueChanged];
     [self.filterScrollView addSubview:self.colorBlueSlider];
+
+#warning TODO: No, really - This is all ugly - needs refactored... seriously
     
     // source image 
     #warning TODO: replace with camera captured or photo library image
@@ -232,6 +234,9 @@
     self.contrastSlider = nil;
     self.brightnessSlider = nil;
     self.sourcePicture = nil;
+    self.colorRedSlider = nil;
+    self.colorGreenSlider = nil;
+    self.colorBlueSlider = nil;
 }
 
 
